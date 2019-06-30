@@ -6,6 +6,8 @@ c=0
 denominator = 1
 plusminus = 0
 
+# fix bug that results in invalid values
+
 for i in range(1,100000):
     denominator = (i*2) * ((i*2)+1) * ((i*2)+2)
     print(denominator)
